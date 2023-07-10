@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+:root {
+    --primary-Bg : rgb(20, 20, 20);
+    --primary-color: rgb(255, 255, 255);
+
+}
+
+body {
+    background-color: var(--primary-Bg);
+    color: var(--primary-color);
+}
+
+main {
+    max-width: 1440px;
+    margin: auto 100px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

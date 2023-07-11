@@ -17,11 +17,29 @@ body {
 }
 
 main {
-    max-width: 1440px;
-    margin: auto 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-name {
+    text-align: center;
+}
+
+.nav-item {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }

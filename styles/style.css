@@ -43,14 +43,14 @@ li {
 
 .nav-item {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
 }
 
 
-@media( min-width: 500px) {
+@media ( min-width: 500px ) {
     .nav-menu {
         display: flex;
         justify-content:space-around;

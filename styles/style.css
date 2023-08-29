@@ -256,7 +256,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    
+
 }
 
 
@@ -351,7 +351,7 @@ textarea {
         flex-direction: row-reverse;
         justify-content: space-evenly;
         margin: auto;
-        /* max-width: 1600px; */
+        max-width: 1600px;
     }
 
 
@@ -379,6 +379,23 @@ textarea {
     
 }
 
+@media (min-width: 800px) {
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin: auto;
+        /* max-width: 1600px; */
+    }
+
+    .hero_img {
+        flex-basis: 50%;
+
+    }
+    .hero-text {
+        flex-basis: 50%;
+    }
+}
 
 
 @media (min-width: 1440px) {

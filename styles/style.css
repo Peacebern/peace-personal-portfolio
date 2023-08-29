@@ -256,6 +256,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
 }
 
 
@@ -312,12 +313,14 @@ textarea {
 
 .nav-menu-foot {
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     top: 0;
     left: 0;
     z-index: 10;
     justify-content: space-between;
-    max-width: 1600px;
+    max-width: 1400px;
+    margin: auto;
+
 }
 /* responsiveness for web view  */
 

@@ -5,30 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>peace-personal-portfolio</title>
     <script src="https://kit.fontawesome.com/21b84ce717.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("WBdTYrFGtqflHNaUL");
+        })();
+    </script>
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="images" href="/images/">
 </head>
 <body>
+    <header>
+        <nav class="nav-menu">
+            <ul class="nav-name">
+                <li>Peacebernard</li>
+            </ul>
+            <ul class="nav-item">
+                <li><a target="_blank" href="https://www.linkedin.com/in/peace-oluchi-bernard-6b8811227"><i class="fa-brands fa-linkedin" style="color: #f8f7f7;"></i></a></li>
+                <li><a target="_blank" href="https://github.com/Peacebern"><i class="fa-brands fa-github" style="color: #f7f7f8;"></i></a></li>
+                <li><a target="_blank" href="mailto:peace8282bern@gmail.com"><i class="fa-solid fa-envelope" style="color: #f4f5f6;"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/sugarme45784473"><i class="fa-brands fa-twitter fa-sm"></i></a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="container">
-        <header>
-            <nav class="nav-menu">
-                <ul class="nav-name">
-                    <li>Peacebernard</li>
-                </ul>
-                <ul class="nav-item">
-                    <li><a target="_blank" href="https://www.linkedin.com/in/peace-oluchi-bernard-6b8811227"><i class="fa-brands fa-linkedin" style="color: #f8f7f7;"></i></a></li>
-                    <li><a target="_blank" href="https://github.com/Peacebern"><i class="fa-brands fa-github" style="color: #f7f7f8;"></i></a></li>
-                    <li><a target="_blank" href="mailto:peace8282bern@gmail.com"><i class="fa-solid fa-envelope" style="color: #f4f5f6;"></i></a></li>
-                    <li><a target="_blank" href="https://twitter.com/sugarme45784473"><i class="fa-brands fa-twitter fa-sm"></i></a></li>
-                </ul>
-            </nav>
-        </header>
-
         <!-- hero section  -->
         <section>
             <div class="hero">
                 <div class="hero_img">
-                    <img src="/images/hero-img.png" rel="hero-img">
+                    <img src="/images/hero-img.png" alt="hero-img">
                 </div>
 
                 <div class="hero-text">
@@ -38,13 +45,13 @@
                     </div>
                     <div class="hero-text-p1">
                         <p>
-                            Based in the UK, I'm a front-end developer
+                            Based in the Nigeria, I'm a front-end developer
                             passionate about building accessible web
                             apps that users love to use.
                         </p>
                     </div>
                     <div class="hero-text-p2">
-                        <p>CONTACT ME</p>
+                        <p><a target="_blank" href="mailto:peace8282bern@gmail.com">CONTACT ME</a></p>
                     </div>
                 </div>
             </div>
@@ -52,31 +59,31 @@
 
         <!-- Experience Section -->
         <section>
-            <div>
+            <div class="exp-container">
                 <ul class="Exp-menu">
                     <li>
                         <p class="Exp-menu-p">HTML</p>
-                        <p class="Exp-menu-p1">4 Years Experience</p>
+                        <p class="Exp-menu-p1">2 Years Experience</p>
                     </li>
                     <li>
                         <p class="Exp-menu-p">CSS</p>
-                        <p class="Exp-menu-p1">4 Years Experience</p>
+                        <p class="Exp-menu-p1">2 Years Experience</p>
                     </li>
                     <li>
                         <p class="Exp-menu-p">JavaScript</p>
-                        <p class="Exp-menu-p1">4 Years Experience</p>
+                        <p class="Exp-menu-p1">1 Years Experience</p>
                     </li>
                     <li>
                         <p class="Exp-menu-p">Accessibility</p>
-                        <p class="Exp-menu-p1">4 Years Experience</p>
+                        <p class="Exp-menu-p1">2 Years Experience</p>
                     </li>
                     <li>
                         <p class="Exp-menu-p">React</p>
-                        <p class="Exp-menu-p1">4 Years Experience</p>
+                        <p class="Exp-menu-p1">1 Years Experience</p>
                     </li>
                     <li>
                         <p class="Exp-menu-p">Sass</p>
-                        <p class="Exp-menu-p1">4 Years Experience</p>
+                        <p class="Exp-menu-p1">1 Years Experience</p>
                     </li>
                 </ul>
             </div>
@@ -88,31 +95,31 @@
             <div class="project">
                 <div class="project-text">
                     <p class="project-text-p1">Project</p>
-                    <p class="project-text-p2">CONTACT ME</p>
+                    <p class="project-text-p2"><a target="_blank" href="mailto:peace8282bern@gmail.com">CONTACT ME</a></p>
                 </div>
                 <div class="project-list">
                     <div>
                         <div class="project-img1">
-                            <img src="/images/shop-easy(1).png" rel="shop-easy">
+                            <img src="/images/shop-easy(1).png" alt="shop-easy">
                         </div>
-                        <div>
-                            <p class="project-img-text1">DESIGN PORFOLIO</p>
+                        <div class="project-margin">
+                            <p class="project-img-text1">E-COMMERCE WEBSITE</p>
                             <div class="project-img-text1 project-img-text2">
                                 <p>HTML</p>
                                 <p>CSS</p>
                                 <p>JS</p>
                             </div>
                             <div class="project-img-text1 project-img-text3">
-                                <p class="project-border">VIEW PROJECT</p>
-                                <p class="project-border">VIEW CODE</p>
+                                <p class="project-border"><a target="_blank" href="https://shop-easy.live/">VIEW PROJECT</a></p>
+                                <p class="project-border"><a target="_blank" href="https://github.com/Peacebern/-Webstack---Portfolio-Project/tree/main/front-end">VIEW CODE</a></p>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="project-img1">
-                            <img src="/images/landing page.PNG" rel="landing page">
+                            <img src="/images/landing page.PNG" alt="landing page">
                         </div>
-                        <div>
+                        <div class="project-margin">
                             <p class="project-img-text1">BUSINESS LANDING PAGE</p>
                             <div class="project-img-text1 project-img-text2">
                                 <p>HTML</p>
@@ -120,32 +127,32 @@
                                 <p>JS</p>
                             </div>
                             <div class="project-img-text1 project-img-text3">
-                                <p class="project-border">VIEW PROJECT</p>
-                                <p class="project-border">VIEW CODE</p>
+                                <p class="project-border"><a target="_blank" href="https://accountability-js.vercel.app/">VIEW PROJECT</a></p>
+                                <p class="project-border"><a target="_blank" href="https://github.com/Peacebern/Accountability-js/tree/main/alp">VIEW CODE</a></p>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="project-img1">
-                            <img src="/images/result computation.PNG" rel="landing page">
+                            <img src="/images/result computation.PNG" alt="landing page">
                         </div>
-                        <div>
+                        <div class="project-margin">
                             <p class="project-img-text1">RESULT COMPUTATION</p>
                             <div class="project-img-text1 project-img-text2">
                                 <p>HTML</p>
                                 <p>CSS</p>
                             </div>
                             <div class="project-img-text1 project-img-text3">
-                                <p class="project-border">VIEW PROJECT</p>
-                                <p class="project-border">VIEW CODE</p>
+                                <p class="project-border"><a target="_blank" href="https://accountability-js-b7dt.vercel.app/">VIEW PROJECT</a></p>
+                                <p class="project-border"><a target="_blank" href="https://github.com/Peacebern/Accountability-js/tree/main/Result%20comput">VIEW CODE</a></p>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div class="project-img1">
-                            <img src="/images/login page.PNG" rel="landing page">
+                            <img src="/images/login page.PNG" alt="landing page">
                         </div>
-                        <div>
+                        <div class="project-margin">
                             <p class="project-img-text1">LOGIN PAGE</p>
                             <div class="project-img-text1 project-img-text2">
                                 <p>HTML</p>
@@ -153,8 +160,25 @@
                                 <p>JS</p>
                             </div>
                             <div class="project-img-text1 project-img-text3">
-                                <p class="project-border">VIEW PROJECT</p>
-                                <p class="project-border">VIEW CODE</p>
+                                <p class="project-border"><a target="_blank" href="https://accountability-js-eb3g.vercel.app/">VIEW PROJECT</a></p>
+                                <p class="project-border"><a target="_blank" href="https://github.com/Peacebern/Accountability-js/tree/main/login%20page">VIEW CODE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="project-img1">
+                            <img src="/images/peace-portfolio1.png" alt="peace portfolio1">
+                        </div>
+                        <div class="project-margin">
+                            <p class="project-img-text1">PEACE PORTFOLIO</p>
+                            <div class="project-img-text1 project-img-text2">
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JS</p>
+                            </div>
+                            <div class="project-img-text1 project-img-text3">
+                                <p class="project-border"><a target="_blank" href="https://peace-personal-portfolio.vercel.app/">VIEW PROJECT</a></p>
+                                <p class="project-border"><a target="_blank" href="https://github.com/Peacebern/peace-personal-portfolio">VIEW CODE</a></p>
                             </div>
                         </div>
                     </div>
@@ -174,19 +198,54 @@
                             i'll get back to you as soon as possible.
                         </p>
                     </div>
+                    
                     <div class="form-item">
-                        <div>
-                            <form action="/script/index.js" class="form-menu">
-                                <input type="text" id="lname" name="lname" value="NAME" class="form-name">
-                                <input type="text" id="lemail" name="lname" value="E-MAIL" class="form-name">
-                                <input type="text" id="lmessage" name="lname" class="form-name form-message">
-                            </form>
+                        <div class="form-menu">
+                            <div class="form-group">
+                                <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    id="name" name="lname" 
+                                    placeholder="NAME" 
+                                    style="background-color: inherit; border: none;"
+                                > 
+                                <span id="nameError" class="contact-span"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input 
+                                    type="email" 
+                                    class="form-control" 
+                                    id="email" 
+                                    name="lemail" 
+                                    placeholder="E-MAIL" 
+                                    style="background-color: inherit; border: none;"
+                                > 
+                                <span id="mailError" class="contact-span"></span>
+                            </div>
+                            
+
+                            <div class="form-group">
+                                <textarea 
+                                    type="text" 
+                                    class="form-control" 
+                                    row="3" 
+                                    class="form-control" 
+                                    id="message" 
+                                    name="lmessage" 
+                                    style="background-color: inherit; border: none;"
+                                ></textarea>
+                                <span id="messageError" class="contact-span"></span>
+                            </div>
+                            
+
                         </div>
 
                         <div class="form-send">
-                            <p>SEND MESSSAGE</p>
+                            <button id="submit" style="background-color: inherit; border: none; color: rgba(255, 255, 255, 0.50);" >SEND MESSAGE</button>
                         </div>
                     </div>
+                    
                 </div>
 
                 <div class="foot">
@@ -205,5 +264,7 @@
             </div>
         </section>
     </main>
+    <script src="/script/index.js"></script>
+   
 </body>
 </html>

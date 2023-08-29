@@ -67,7 +67,6 @@ section {
 .hero {
     margin: auto;
     flex-wrap: wrap;
-    /* max-width: 1600px; */
 }
 
 .hero_img {
@@ -310,6 +309,16 @@ textarea {
     border: none;
     border-top: 2px solid #D9D9D9;
 }
+
+.nav-menu-foot {
+    display: flex;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    justify-content: space-between;
+    max-width: 1600px;
+}
 /* responsiveness for web view  */
 
 @media ( min-width: 500px ) {
@@ -338,7 +347,6 @@ textarea {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
-        flex-wrap:nowrap;
         margin: auto;
         /* max-width: 1600px; */
     }
@@ -365,39 +373,9 @@ textarea {
         justify-content: center;
     }
 
-    /* .contact-sub {
-        display: flex;
-        justify-content: space-between;
-        gap: 200px;
-        background-color: red;
-    }
-
-    .contact-p {
-        align-items: self-start;
-    }
-
-    .contact-p1 {
-        text-align:start;
-        text-align-last:left;
-    }
-
-    .form-item {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-    } */
+    
 }
 
-/* @media (min-width: 600px) {
-    .hero {
-        display: flex;
-        margin: auto;
-    }
-    .hero_img {
-        flex-basis: 1;
-        flex-shrink: 1;
-    }
-} */
 
 
 @media (min-width: 1440px) {
@@ -410,10 +388,8 @@ textarea {
     }
 
     .nav-menu {
-        /* background-color: red; */
         margin: auto;
         position: relative;
-        /* width: 45%; */
         z-index: 10;
         justify-content: space-between;
         max-width: 1600px;

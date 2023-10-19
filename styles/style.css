@@ -325,7 +325,6 @@ textarea {
 /* responsiveness for web view  */
 
 @media ( min-width: 500px ) {
-
     section {
         padding: 4rem;
         padding-top: 0;
@@ -382,21 +381,54 @@ textarea {
 @media (min-width: 800px) {
     .hero {
         display: flex;
+        gap: 40px;
         flex-direction: row-reverse;
-        justify-content: space-evenly;
+        
         margin: auto;
-        /* max-width: 1600px; */
+        flex-wrap: nowrap;
+        max-width: 1600;
     }
 
     .hero_img {
-        flex-basis: 50%;
-
+        position: relative;
+        flex-basis: 70%;
+        
+        padding: 0;
+        
+        object-fit:inherit;
+        overflow: hidden;
     }
+
+
     .hero-text {
-        flex-basis: 50%;
+        flex-basis: 30%px;
+        
+    }
+
+    .hero-text-p {
+        font-size: 35px;
     }
 }
 
+
+@media(min-width: 1005px) {
+
+    .hero {
+        max-width: 1600;
+        justify-content: space-evenly;
+    }
+    .hero_img {
+        flex-basis: 30%;
+    }
+
+    .hero-text {
+        flex-basis: 70%;
+    }
+
+    .hero-text-p {
+        font-size: 40px;
+    }
+}
 
 @media (min-width: 1440px) {
     .hero {
@@ -407,6 +439,7 @@ textarea {
 
     }
 
+    
     .nav-menu {
         margin: auto;
         position: relative;

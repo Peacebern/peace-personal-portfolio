@@ -243,6 +243,13 @@ section {
     text-align-last: center;
 }
 
+.contact-text {
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-weight: 700;
+    /* color: red; */
+}
+
 .contact-span {
     color: red;
 }
@@ -401,12 +408,40 @@ textarea {
 
 
     .hero-text {
-        flex-basis: 30%px;
+        flex-basis: 30%;
         
     }
 
     .hero-text-p {
         font-size: 35px;
+    }
+
+    .contact-sub {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+        
+    }
+
+    .contact-p {
+        flex-basis: 50%;
+        align-items: flex-start;
+        margin-top: 2.3rem;
+    }
+
+    .contact-text {
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+
+    .contact-p1 {
+        text-align-last: left;
+    }
+
+    .form-item {
+        flex-basis: 50%;
     }
 }
 
@@ -426,7 +461,7 @@ textarea {
     }
 
     .hero-text-p {
-        font-size: 40px;
+        font-size: 70px;
     }
 }
 

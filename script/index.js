@@ -16,7 +16,7 @@ document.getElementById('submit').addEventListener('click', function () {
     const senderEmail = email.value;
     const msgText = message.value;
 
-    const serviceID = "service_av6iq8l";
+    const serviceID = "service_sdgkvf7";
     const templateID = "template_tgfkcge";
 
     const emailRegex = /^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$/;
@@ -51,7 +51,7 @@ document.getElementById('submit').addEventListener('click', function () {
         message: msgText
     };
 
-    emailjs.send("service_av6iq8l", "template_tgfkcge", emailJSVariable)
+    emailjs.send("service_sdgkvf7", "template_tgfkcge", emailJSVariable)
         .then(res => {
             alert("Thank you! Your message has been received");
             name.value = "";

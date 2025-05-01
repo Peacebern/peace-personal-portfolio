@@ -110,12 +110,19 @@ section {
     font-weight: 700;
     border-bottom: 2px solid rgb(76, 225, 158);
     padding: 1rem;
+    transition: .5s;
+}
+
+.hero-text-p2:hover {
+    border-bottom: 1px solid rgb(104, 232, 230);
+    transform: scale(1.1);
 }
 
 .hero-span {
     text-decoration: underline;
     text-decoration-color: rgb(76, 225, 158);
 }
+
 
 .exp-container {
     margin: auto;
@@ -180,6 +187,12 @@ section {
     font-weight: 700;
     padding: 2px 0px 15px 0px;
     border-bottom: 1px solid rgb(76, 225, 158);
+    transition: .5s;
+}
+
+.project-text-p2:hover {
+    border-bottom: 1px solid rgb(104, 232, 230);
+    transform: scale(1.1);
 }
 
 .project-margin {
@@ -223,6 +236,12 @@ section {
 .project-border {
     border-bottom: 1px solid rgb(76, 225, 158);
     padding: 2px 0px 15px 0px;
+    transition: .5s;
+}
+
+.project-border:hover {
+    border-bottom: 1px solid rgb(104, 232, 230);
+    transform: scale(1.1);
 }
 
 .contact {
@@ -305,6 +324,7 @@ textarea {
 
 .form-send {
     margin-top: 20px;
+    /* cursor: pointer; */
     display: flex;
     align-self:flex-end;
     border-bottom: 1px solid rgb(76, 225, 158);
@@ -312,7 +332,12 @@ textarea {
     font-family: Space Grotesk;
     font-size: 16px;
     font-weight: 700;
+    transition: .5s;
+}
 
+.form-send:hover {
+    border-bottom: 1px solid rgb(104, 232, 230);
+    transform: scale(1.1);
 }
 
 
